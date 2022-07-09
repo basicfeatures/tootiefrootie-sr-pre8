@@ -4,8 +4,12 @@
   "dependencies": {
     "@hotwired/stimulus": "^3.0.1",
     "@hotwired/turbo-rails": "^7.1.3",
+    "@rails/actioncable": "7.0.2-3",
+    "cable_ready": "5.0.0-pre8",
     "esbuild": "^0.14.49",
-    "sass": "^1.53.0"
+    "esbuild-rails": "^1.0.3",
+    "sass": "^1.53.0",
+    "stimulus_reflex": "3.5.0-pre8"
   },
   "scripts": {
     "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds --public-path=assets",
